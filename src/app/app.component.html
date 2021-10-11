@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section>
+    <div class="container-fluid">
+  <h1 style="text-align: center;margin-top: 20px;margin-bottom: 20px;">Friends Chai Club</h1>
+  </div>
+  </section>
+  
+  <nav id="x" style="margin-bottom: 20px;" class="navbar navbar-expand-sm ">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img style="margin-bottom: 7px;"src="./assets/Images/LogoMakerCa-1633003504930.jpg" width="100px" height="100px">
+    </a>
+  
+  
+    <!-- Links -->
+    <ul  class="navbar-nav">
+      
+      <li  class="nav-item">
+        <a style="font-size: 20px;"  class="nav-link" id="y" routerLink="/home"><i style="margin-right: 10px; font-size: 20px;" class="fas fa-home"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a style="font-size: 20px;"class="nav-link" id="z" routerLink="/aboutus"><i style="margin-right: 10px;  font-size: 20px;"class="fas fa-address-card"></i>About Us</a>
+      </li>
+  
+      <!-- Dropdown 
+    <li class="nav-item dropdown">
+      <a style="font-size: 20px;"class="nav-link dropdown-toggle" routerLink="/menu" id="navbardrop" data-toggle="dropdown"><i style="margin-right: 10px; font-size: 20px;"class="fas fa-clipboard-list"></i>
+        Menu
+      </a>-->
+      <!--<div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="menu/tea">Tea</a>
+        <a class="dropdown-item" routerLink="menu/coffee">Coffee</a>
+        <a class="dropdown-item" routerLink="menu/snacks">Snacks</a>
+        <a class="dropdown-item" routerLink="menu/cookies">Cookies</a>
+      </div>-->
+    
+      <li class="nav-item">
+        <a style="font-size: 20px;"class="nav-link" id="a" routerLink="/menulist"> <i style="margin-right: 10px; font-size: 20px;"class="fas fa-clipboard-list"></i>Menu List</a>
+      </li>
+      <li class="nav-item">
+        <a style="font-size: 20px;"class="nav-link" id="b" routerLink="/chaioncall"> <i style="margin-right: 10px; font-size: 20px;"class="fas fa-phone-alt"></i>Chai on call</a>
+      </li>
+      <li class="nav-item" class="a">
+        <a style="font-size: 20px;"class="nav-link" id="c" routerLink="/signup"><i style="margin-right: 5px; font-size: 20px;" class="fas fa-sign-out-alt"></i> Sign Up</a>
+        
+      </li>
+      <li class="nav-item">
+        <a style="font-size: 20px;"class="nav-link"id="d" routerLink="/signin"><i style="margin-right: 5px; font-size: 20px;"class="fas fa-sign-in-alt"></i> Sign In</a>
+        
+      </li>
+    
+    </ul>
+  
+  </nav>
+
+  <router-outlet></router-outlet>
+</body>
+<app-footer></app-footer>
+</html>
+
+
